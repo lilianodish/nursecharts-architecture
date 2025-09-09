@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-09T23:24:30.029Z",
+  "test_count": 2,
+  "metrics": {
+    "faithfulness": 0.6875,
+    "context_precision": 0.6875,
+    "answer_relevance": 0,
+    "latency_p50": 751.1583718204603,
+    "latency_p90": 751.1583718204603
+  },
+  "category_breakdown": {
+    "voice_commands": {
+      "faithfulness": 0.75,
+      "relevance": 0,
+      "precision": 0.75,
+      "count": 1
+    },
+    "medicare_compliance": {
+      "faithfulness": 0.625,
+      "relevance": 0,
+      "precision": 0.625,
+      "count": 1
+    }
+  },
+  "details": [
+    {
+      "id": "NC-VC-001",
+      "category": "voice_commands",
+      "faithfulness": 0.75,
+      "relevance": 0,
+      "contextPrecision": 0.75,
+      "latency_ms": 531.3117538398391,
+      "question": "What voice commands work for documenting pain?"
+    },
+    {
+      "id": "NC-MC-002",
+      "category": "medicare_compliance",
+      "faithfulness": 0.625,
+      "relevance": 0,
+      "contextPrecision": 0.625,
+      "latency_ms": 751.1583718204603,
+      "question": "What are the P0 Medicare blockers that prevent not..."
+    }
+  ]
+}
