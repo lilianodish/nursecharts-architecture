@@ -1,4 +1,4 @@
-# NurseCharts — Architecture Teardown (Maintenance-Mode)
+# NurseCharts | Architecture Teardown (Maintenance-Mode)
 
 **Problem →** Hospice documentation is time-intensive and cognitively heavy.  
 **Goal →** Convert voice + EMR paste into Medicare-compliant notes with QA signals and copy-to-EMR output.  
